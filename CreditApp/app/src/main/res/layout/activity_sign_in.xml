@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A5A5F6"
+    tools:context=".SignIn">
+    <TextView
+        android:layout_marginTop="80sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Sign In"
+        android:textColor="#FFEB3B"
+        android:textAlignment="center"/>
+<EditText
+    android:layout_marginTop="50sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/in_et1"
+    android:hint="Enter Pno"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/in_et2"
+        android:password="true"
+        android:hint="Enter password"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="30sp"
+        android:id="@+id/in_bt"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textAlignment="center"/>
+</LinearLayout>

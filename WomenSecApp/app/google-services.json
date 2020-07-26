@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "498690268712",
+    "firebase_url": "https://women-sec-app.firebaseio.com",
+    "project_id": "women-sec-app",
+    "storage_bucket": "women-sec-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498690268712:android:bd976d9b6cfb01b81b1f1d",
+        "android_client_info": {
+          "package_name": "com.example.womensecapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498690268712-drafvs72ru71553v6qsvvh76vm80td5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womensecapp",
+            "certificate_hash": "302adc5e8a0b42c3c079c82664fb82fd9b5edeb9"
+          }
+        },
+        {
+          "client_id": "498690268712-29n0ck48en1cod4lolhm234ushj8jf75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPm8t_XW9f1X9HJf_fTTpUvqXeU9o24Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498690268712-29n0ck48en1cod4lolhm234ushj8jf75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/cmenu_m1" android:title="Edit Book Info"/>
+    <item android:id="@+id/cmenu_m2" android:title="Delete Book Info"/>
+    <item android:id="@+id/cmenu_m3" android:title="Book Info"/>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E62F"
+    android:orientation="vertical"
+    tools:context=".AddCustomer">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Add"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Customer"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_et1"
+        android:textSize="30sp"
+        android:hint="Enter Name"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_et2"
+        android:textSize="30sp"
+        android:hint="Enter Pno"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_et3"
+        android:textSize="30sp"
+        android:hint="Enter Email"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_bt"
+        android:textSize="30sp"
+        android:text="Save"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+
+</LinearLayout>
